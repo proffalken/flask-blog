@@ -23,8 +23,7 @@ manager = Manager(app)
 @manager.command
 def initdb():
     "Creates database tables"
-    if prompt_bool("Are you sure? You will init your database"):
-        db.create_all()
+     db.create_all()
 
 
 @manager.command
