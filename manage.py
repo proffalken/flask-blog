@@ -23,7 +23,7 @@ manager = Manager(app)
 @manager.command
 def initdb():
     "Creates database tables"
-     db.create_all()
+    db.create_all()
 
 
 @manager.command
